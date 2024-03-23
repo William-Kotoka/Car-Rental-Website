@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "name": "BMW M3",
+    "price": "$80/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/sports cars/car1.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car1-details/car1-1.jpg",
+      "CARS/details/car1-details/car1-2.jpg",
+      "CARS/details/car1-details/car1-3.jpg",
+      "CARS/details/car1-details/car1-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 2,
+    "name": "CHEVROLET CAMARO",
+    "price": "$80/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/sports cars/car2.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car2-details/car2-1.jpg",
+      "CARS/details/car2-details/car2-2.webp",
+      "CARS/details/car2-details/car2-3.jpg",
+      "CARS/details/car2-details/car2-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 3,
+    "name": "DODGE DEMON",
+    "price": "$100/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/sports cars/car3.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car3-details/car3-1.webp",
+      "CARS/details/car3-details/car3-2.jpg",
+      "CARS/details/car3-details/car3-3.jpg",
+      "CARS/details/car3-details/car3-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 4,
+    "name": "BUGATTI CHIRON",
+    "price": "$190/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/sports cars/car4.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car4-details/car4-1.jpg",
+      "CARS/details/car4-details/car4-2.jpg",
+      "CARS/details/car4-details/car4-3.jpg",
+      "CARS/details/car4-details/car4-4.jpeg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 5,
+    "name": "FORD MUSTANG",
+    "price": "$90/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/sports cars/car5.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car5-details/car5-1.jpg",
+      "CARS/details/car5-details/car5-2.jpg",
+      "CARS/details/car5-details/car5-3.jpg",
+      "CARS/details/car5-details/car5-4.JPG"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 6,
+    "name": "KOENIGSEGG",
+    "price": "$180/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/sports cars/car6.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car6-details/car6-1.webp",
+      "CARS/details/car6-details/car6-2.webp",
+      "CARS/details/car6-details/car6-3.jpg",
+      "CARS/details/car6-details/car6-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 7,
+    "name": "PORSCHE 911",
+    "price": "$180/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/sports cars/car7.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car7-details/car7-1.jpg",
+      "CARS/details/car7-details/car7-2.jpg",
+      "CARS/details/car7-details/car7-3.jpeg",
+      "CARS/details/car7-details/car7-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 8,
+    "name": "LAMBORGHINI",
+    "price": "$130/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/sports cars/car8.webp",
+    "imageGalleryUrls": [
+      "CARS/details/car8-details/car8-1.jpg",
+      "CARS/details/car8-details/car8-2.jpg",
+      "CARS/details/car8-details/car8-3.jpg",
+      "CARS/details/car8-details/car8-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 9,
+    "name": "CAMRY TRD",
+    "price": "$50/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/small car/car9.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car9-details/car9-1.jpg",
+      "CARS/details/car9-details/car9-2.jpg",
+      "CARS/details/car9-details/car9-3.jpg",
+      "CARS/details/car9-details/car9-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 10,
+    "name": "DAEWOO MATIZ",
+    "price": "$20/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/small car/car10.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car10-details/car10-1.jpg",
+      "CARS/details/car10-details/car10-2.jpg",
+      "CARS/details/car10-details/car10-3.jpg",
+      "CARS/details/car10-details/car10-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 11,
+    "name": "HONDA ACCORD",
+    "price": "$50/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/small car/car11.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car11-details/car11-1.jpg",
+      "CARS/details/car11-details/car11-2.webp",
+      "CARS/details/car11-details/car11-3.png",
+      "CARS/details/car11-details/car11-4.webp"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 12,
+    "name": "TOYOTA YARIS",
+    "price": "$30/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/small car/car12.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car12-details/car12-1.jpg",
+      "CARS/details/car12-details/car12-2.jpg",
+      "CARS/details/car12-details/car12-3.jpg",
+      "CARS/details/car12-details/car12-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 13,
+    "name": "HONDA FIT",
+    "price": "$30/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/small car/car13.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car13-details/car13-1.jpg",
+      "CARS/details/car13-details/car13-2.jpg",
+      "CARS/details/car13-details/car13-3.jpg",
+      "CARS/details/car13-details/car13-4.webp"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 14,
+    "name": "TOYOTA COROLLA",
+    "price": "$50/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/small car/car14.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car14-details/car14-1.jpg",
+      "CARS/details/car14-details/car14-2.jpg",
+      "CARS/details/car14-details/car14-3.jpg",
+      "CARS/details/car14-details/car14-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 15,
+    "name": "KIA PICANTO",
+    "price": "$20/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/small car/car15.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car15-details/car15-1.jpg",
+      "CARS/details/car15-details/car15-2.jpg",
+      "CARS/details/car15-details/car15-3.jpg",
+      "CARS/details/car15-details/car15-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 16,
+    "name": "ELANTRA SPORTS",
+    "price": "$40/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/small car/car16.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car16-details/car16-1.jpg",
+      "CARS/details/car16-details/car16-2.jpg",
+      "CARS/details/car16-details/car16-3.jpg",
+      "CARS/details/car16-details/car16-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 17,
+    "name": "TOYOTA TUNDRA",
+    "price": "$320/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/pickup trucks/car17.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car17-details/car17-1.jpg",
+      "CARS/details/car17-details/car17-2.jpg",
+      "CARS/details/car17-details/car17-3.jpg",
+      "CARS/details/car17-details/car17-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 18,
+    "name": "MITSUBISHI L200",
+    "price": "$200/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/pickup trucks/car18.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car18-details/car18-1.jpg",
+      "CARS/details/car18-details/car18-2.webp",
+      "CARS/details/car18-details/car18-3.webp",
+      "CARS/details/car18-details/car18-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 19,
+    "name": "DODGE RAM TRX",
+    "price": "$320/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/pickup trucks/car19.webp",
+    "imageGalleryUrls": [
+      "CARS/details/car19-details/car19-1.jpg",
+      "CARS/details/car19-details/car19-2.jpg",
+      "CARS/details/car19-details/car19-3.jpg",
+      "CARS/details/car19-details/car19-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 20,
+    "name": "NISSAN NAVARA",
+    "price": "$200/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/pickup trucks/car20.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car20-details/car20-1.jpg",
+      "CARS/details/car20-details/car20-2.webp",
+      "CARS/details/car20-details/car20-3.jpg",
+      "CARS/details/car20-details/car20-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 21,
+    "name": "ISUZU DMAX",
+    "price": "$200/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/pickup trucks/car21.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car21-details/car21-1.jpg",
+      "CARS/details/car21-details/car21-2.jpg",
+      "CARS/details/car21-details/car21-3.jpg",
+      "CARS/details/car21-details/car21-4.webp"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 22,
+    "name": "FORD F150",
+    "price": "$300/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/pickup trucks/car22.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car22-details/car22-1.webp",
+      "CARS/details/car22-details/car22-2.jpg",
+      "CARS/details/car22-details/car22-3.webp",
+      "CARS/details/car22-details/car22-4.webp"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 23,
+    "name": "TOYOTA HILUX",
+    "price": "$200/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/pickup trucks/car23.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car23-details/car23-1.jpg",
+      "CARS/details/car23-details/car23-2.jpg",
+      "CARS/details/car23-details/car23-3.jpg",
+      "CARS/details/car23-details/car23-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 24,
+    "name": "VW AMAROK",
+    "price": "$210/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/pickup trucks/car24.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car24-details/car24-1.webp",
+      "CARS/details/car24-details/car24-2.jpg",
+      "CARS/details/car24-details/car24-3.jpg",
+      "CARS/details/car24-details/car24-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 25,
+    "name": "ESCALADE",
+    "price": "$230/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/suv/car25.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car25-details/car25-1.jpg",
+      "CARS/details/car25-details/car25-2.jpg",
+      "CARS/details/car25-details/car25-3.jpg",
+      "CARS/details/car25-details/car25-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 26,
+    "name": "LEXUS 570",
+    "price": "$190/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/suv/car26.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car26-details/car26-1.jpeg",
+      "CARS/details/car26-details/car26-2.jpg",
+      "CARS/details/car26-details/car26-3.jpg",
+      "CARS/details/car26-details/car26-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 27,
+    "name": "RANGE ROVER",
+    "price": "$190/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/suv/car27.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car27-details/car27-1.png",
+      "CARS/details/car27-details/car27-2.webp",
+      "CARS/details/car27-details/car27-3.jpg",
+      "CARS/details/car27-details/car27-4.png"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 28,
+    "name": "SUBURBAN",
+    "price": "$200/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/suv/car28.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car28-details/car28-1.jpg",
+      "CARS/details/car28-details/car28-2.jpg",
+      "CARS/details/car28-details/car28-3.jpg",
+      "CARS/details/car28-details/car28-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 29,
+    "name": "AUDI Q7",
+    "price": "$200/day",
+    "location": "Tema",
+    "mainImageUrl": "CARS/suv/car29.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car29-details/car29-1.jpg",
+      "CARS/details/car29-details/car29-2.jpg",
+      "CARS/details/car29-details/car29-3.jpg",
+      "CARS/details/car29-details/car29-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 30,
+    "name": "G-WAGON",
+    "price": "$220/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/suv/car30.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car30-details/car30-1.webp",
+      "CARS/details/car30-details/car30-2.jpg",
+      "CARS/details/car30-details/car30-3.webp",
+      "CARS/details/car30-details/car30-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 31,
+    "name": "LAND CRUISER",
+    "price": "$200/day",
+    "location": "Spintex",
+    "mainImageUrl": "CARS/suv/car31.jpg",
+    "imageGalleryUrls": [
+      "CARS/details/car31-details/car31-1.webp",
+      "CARS/details/car31-details/car31-2.jpg",
+      "CARS/details/car31-details/car31-3.jpg",
+      "CARS/details/car31-details/car31-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  },
+  {
+    "id": 32,
+    "name": "PATHFINDER",
+    "price": "$190/day",
+    "location": "Accra",
+    "mainImageUrl": "CARS/suv/car32.webp",
+    "imageGalleryUrls": [
+      "CARS/details/car32-details/car32-1.jpg",
+      "CARS/details/car32-details/car32-2.jpg",
+      "CARS/details/car32-details/car32-3.webp",
+      "CARS/details/car32-details/car32-4.jpg"
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere adipisci alias dolorem laborum dignissimos, labore voluptatem inventore enim. Culpa sint quidem harum neque optio."
+  }
+]
