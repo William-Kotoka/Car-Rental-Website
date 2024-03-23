@@ -1,1 +1,3 @@
-## About RENTiT
+# RENTiT
+
+## Description about the project
