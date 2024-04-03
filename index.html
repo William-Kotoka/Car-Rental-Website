@@ -14,39 +14,41 @@
     <!--START OF HEADER-->
     <header>
       <nav>
-        <div class="logo">
-          <h1>RENT<span class="warning">iT</span></h1>
-        </div>
-        <div class="close" id="close-btn">
-          <span class="material-symbols-sharp">close</span>
-        </div>
+        <div class="limit-view">
+          <div class="logo">
+            <h1>RENT<span class="warning">iT</span></h1>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-sharp">close</span>
+          </div>
 
-        <div id="search-box" onclick="openSearchModal()">
-          <span class="material-symbols-sharp search-icon"> search </span>
-          <a href="#" class="search-text"> Search</a>
-        </div>
+          <div id="search-box" onclick="openSearchModal()">
+            <span class="material-symbols-sharp search-icon"> search </span>
+            <a href="#" class="search-text"> Search</a>
+          </div>
 
-        <div class="nav-links">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#cars">Cars</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            <li>
-              <a
-                href="#"
-                onclick="openSearchModal()"
-                class="mobile-search-link"
-              >
-                Search...</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="menu" id="menu-btn">
-          <span class="material-symbols-sharp menu-btn">menu</span>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#cars">Cars</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+              <li>
+                <a
+                  href="#"
+                  onclick="openSearchModal()"
+                  class="mobile-search-link"
+                >
+                  Search...</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="menu" id="menu-btn">
+            <span class="material-symbols-sharp menu-btn">menu</span>
+          </div>
         </div>
       </nav>
     </header>
@@ -56,163 +58,202 @@
     <main>
       <!--START OF HOME SECTION-->
       <div class="home-section" id="home">
-        <div class="home-content">
-          <div class="hero-text element1">
-            <h1>Search and find your best car rental with easy way</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
-              similique inventore harum. Mollitia ullam quae expedita
-              repudiandae voluptates libero asperiores.
-            </p>
-            <div class="hero-btn">
-              <div class="book-now">
-                <a href="#cars">
-                  <h4>
-                    Book now
-                    <span class="material-symbols-sharp span">call</span>
-                  </h4>
-                </a>
-              </div>
-              <div class="home-see-all-cars" onclick="openAllCardsModal()">
-                <a href="#">
-                  <h4>See all cars</h4>
-                </a>
+        <div class="limit-view">
+          <div class="home-content">
+            <div class="hero-text element1">
+              <h1>Search and find your best car rental with easy way</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Mollitia similique inventore harum. Mollitia ullam quae expedita
+                repudiandae voluptates libero asperiores.
+              </p>
+              <div class="hero-btn">
+                <div class="book-now">
+                  <a href="#cars">
+                    <h4>
+                      Book now
+                      <span class="material-symbols-sharp span">call</span>
+                    </h4>
+                  </a>
+                </div>
+                <div class="home-see-all-cars" onclick="openAllCardsModal()">
+                  <a href="#">
+                    <h4>See all cars</h4>
+                  </a>
+                </div>
               </div>
             </div>
+            <div class="hero-image element2">
+              <img src="images\hero image\hero-image-1.png" alt="hero-image" />
+            </div>
           </div>
-          <div class="hero-image element2">
-            <img src="images\hero image\hero-image-1.png" alt="hero-image" />
+          <div class="car-logos element3">
+            <img
+              src="./images/car logos/Infiniti-Logo-PNG-Isolated-File.png"
+              alt="logo-1"
+            />
+            <img src="./images/car logos/36643-1-honda-logo.png" alt="logo-2" />
+            <img
+              src="./images/car logos/Lexus-Logo-Wallpaper-2022.png"
+              alt="logo-3"
+            />
+            <img
+              src="./images/car logos/bojBha-toyota-logo-hd-image.png"
+              alt="logo-4"
+            />
+            <img
+              src="./images/car logos/mercedes-benz-9-logo-png-transparent.png"
+              alt="logo-5"
+            />
+            <img src="./images/car logos/mazda-logo.png" alt="logo-6" />
           </div>
-        </div>
-        <div class="car-logos element3">
-          <img
-            src="./images/car logos/Infiniti-Logo-PNG-Isolated-File.png"
-            alt="logo-1"
-          />
-          <img src="./images/car logos/36643-1-honda-logo.png" alt="logo-2" />
-          <img
-            src="./images/car logos/Lexus-Logo-Wallpaper-2022.png"
-            alt="logo-3"
-          />
-          <img
-            src="./images/car logos/bojBha-toyota-logo-hd-image.png"
-            alt="logo-4"
-          />
-          <img
-            src="./images/car logos/mercedes-benz-9-logo-png-transparent.png"
-            alt="logo-5"
-          />
-          <img src="./images/car logos/mazda-logo.png" alt="logo-6" />
         </div>
       </div>
 
       <!-- Modal for search -->
       <div id="searchModal" class="modal">
-        <div>
-          <span class="close-modal" onclick="closeSearchModal()">&times;</span>
-        </div>
-        <div class="search-input-container">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search for a car..."
-          />
-        </div>
-        <div>
-          <div id="searchResults"></div>
+        <div class="limit-view">
+          <div>
+            <span class="close-modal" onclick="closeSearchModal()"
+              >&times;</span
+            >
+          </div>
+          <div class="search-input-container">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search for a car..."
+            />
+          </div>
+          <div>
+            <div id="searchResults"></div>
+          </div>
         </div>
       </div>
 
       <!--START OF ABOUT SECTION-->
       <section class="parent-about reveal-element" id="about">
-        <div class="about-paragraph">
-          <h2 class="success">About Us</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-            nobis qui. Numquam, repellat reiciendis doloremque mollitia optio
-            facilis hic neque, architecto possimus consequuntur deleniti veniam.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            impedit accusantium aliquam ratione excepturi repellat ducimus
-            doloremque enim illo totam! Lorem ipsum, dolor sit amet consectetur
-            padipisicing elit. Qui, laboriosam iusto iure, neque quod sint
-            maxime eveniet impedit velit quis reiciendis voluptates dolores
-            suscipit ab veritatis.
-          </p>
-          <p>
-            Quibusdam consectetur eius blanditiis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Consequuntur qui reiciendis cumque est
-            sunt eum natus pariatur, error quo. Sequi numquam ratione asperiores
-            assumenda a molestiae minima rerum ut. Culpa reiciendis itaque
-            tempore natus perferendis rerum consequatur cum, voluptatibus modi.
-          </p>
-          <p>
-            Accusantium aliquam ratione excepturi repellat ducimus doloremque
-            enim illo totam! Lorem ipsum, dolor sit amet consectetur
-            padipisicing elit. Qui, laboriosam iusto iure, neque quod sint
-            maxime eveniet impedit velit quis reiciendis voluptates dolores
-            suscipit ab veritatis.
-          </p>
+        <div class="limit-view">
+          <div class="about-paragraph">
+            <h2 class="success">About Us</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corporis, nobis qui. Numquam, repellat reiciendis doloremque
+              mollitia optio facilis hic neque, architecto possimus consequuntur
+              deleniti veniam. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Eveniet impedit accusantium aliquam ratione
+              excepturi repellat ducimus doloremque enim illo totam! Lorem
+              ipsum, dolor sit amet consectetur padipisicing elit. Qui,
+              laboriosam iusto iure, neque quod sint maxime eveniet impedit
+              velit quis reiciendis voluptates dolores suscipit ab veritatis.
+            </p>
+            <p>
+              Quibusdam consectetur eius blanditiis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consequuntur qui reiciendis cumque
+              est sunt eum natus pariatur, error quo. Sequi numquam ratione
+              asperiores assumenda a molestiae minima rerum ut. Culpa reiciendis
+              itaque tempore natus perferendis rerum consequatur cum,
+              voluptatibus modi.
+            </p>
+            <p>
+              Accusantium aliquam ratione excepturi repellat ducimus doloremque
+              enim illo totam! Lorem ipsum, dolor sit amet consectetur
+              padipisicing elit. Qui, laboriosam iusto iure, neque quod sint
+              maxime eveniet impedit velit quis reiciendis voluptates dolores
+              suscipit ab veritatis.
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corporis, nobis qui. Numquam, repellat reiciendis doloremque
+              mollitia optio facilis hic neque, architecto possimus consequuntur
+              deleniti veniam. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Eveniet impedit accusantium aliquam ratione
+              excepturi repellat ducimus doloremque enim illo totam! Lorem
+              ipsum, dolor sit amet consectetur padipisicing elit. Qui,
+              laboriosam iusto iure, neque quod sint maxime eveniet impedit
+              velit quis reiciendis voluptates dolores suscipit ab veritatis.
+            </p>
+            <p>
+              Quibusdam consectetur eius blanditiis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Consequuntur qui reiciendis cumque
+              est sunt eum natus pariatur, error quo. Sequi numquam ratione
+              asperiores assumenda a molestiae minima rerum ut. Culpa reiciendis
+              itaque tempore natus perferendis rerum consequatur cum,
+              voluptatibus modi.
+            </p>
+            <p>
+              Accusantium aliquam ratione excepturi repellat ducimus doloremque
+              enim illo totam! Lorem ipsum, dolor sit amet consectetur
+              padipisicing elit. Qui, laboriosam iusto iure, neque quod sint
+              maxime eveniet impedit velit quis reiciendis voluptates dolores
+              suscipit ab veritatis.
+            </p>
+          </div>
         </div>
       </section>
 
       <!--START OF SERVICES SECTION-->
       <section class="service section reveal-element" id="services">
         <div class="services-section">
-          <div class="service-paragraph-background">
-            <div class="service-paragraph">
-              <h2 class="success padding-top-bottom">Our Services</h2>
-              <h1 class="padding-top-bottom cool">
-                We have best service for the rent cars
-              </h1>
-              <p class="cool-variant padding-top-bottom">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis, nobis qui. Numquam, repellat reiciendis doloremque
-                mollitia optio facilis hic neque.
-              </p>
+          <div class="limit-view">
+            <div class="service-paragraph-background">
+              <div class="service-paragraph">
+                <h2 class="success padding-top-bottom">Our Services</h2>
+                <h1 class="padding-top-bottom cool">
+                  We have best service for the rent cars
+                </h1>
+                <p class="cool-variant padding-top-bottom">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis, nobis qui. Numquam, repellat reiciendis doloremque
+                  mollitia optio facilis hic neque. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Est delectus mollitia unde
+                  necessitatibus assumenda facilis.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="service-card-parent">
-            <div class="service-cards">
-              <div class="cards">
-                <div class="card-icons">
-                  <img
-                    src="./images/card icons/pngtree-quality-check-certified-badge-icon-png-image_6583296.png"
-                    alt="certifed"
-                  />
+            <div class="service-card-parent">
+              <div class="service-cards">
+                <div class="cards">
+                  <div class="card-icons">
+                    <img
+                      src="./images/card icons/pngtree-quality-check-certified-badge-icon-png-image_6583296.png"
+                      alt="certifed"
+                    />
+                  </div>
+                  <div>
+                    <h2 class="padding-top-bottom">Quality Choices</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Odit laudantium totam.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h2 class="padding-top-bottom">Quality Choices</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit laudantium totam.
-                  </p>
+                <div class="cards">
+                  <div class="card-icons">
+                    <img
+                      src="./images/card icons/Godakhtar_Logo.svg.png"
+                      alt="diamond"
+                    />
+                  </div>
+                  <div>
+                    <h2 class="padding-top-bottom">Exclusive Services</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Odit laudantium totam.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="cards">
-                <div class="card-icons">
-                  <img
-                    src="./images/card icons/Godakhtar_Logo.svg.png"
-                    alt="diamond"
-                  />
-                </div>
-                <div>
-                  <h2 class="padding-top-bottom">Exclusive Services</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit laudantium totam.
-                  </p>
-                </div>
-              </div>
-              <div class="cards">
-                <div class="card-icons">
-                  <img src="./images/card icons/7616086.png" alt="speed" />
-                </div>
-                <div>
-                  <h2 class="padding-top-bottom">Fast and Safe</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit laudantium totam.
-                  </p>
+                <div class="cards">
+                  <div class="card-icons">
+                    <img src="./images/card icons/7616086.png" alt="speed" />
+                  </div>
+                  <div>
+                    <h2 class="padding-top-bottom">Fast and Safe</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Odit laudantium totam.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -222,150 +263,159 @@
 
       <!--START OF CARS SECTION-->
       <section class="cars-section-main" id="cars">
-        <div class="cars-heading">
-          <div>
-            <h2 class="success">Cars</h2>
-            <h1>Our Car Collections</h1>
+        <div class="limit-view">
+          <div class="cars-heading">
+            <div>
+              <h2 class="success">Cars</h2>
+              <h1>Our Car Collections</h1>
+            </div>
           </div>
-        </div>
-        <div class="cars-container-content">
-          <div class="car-btns">
-            <button id="sports-cars-btn">Sports Cars</button>
-            <button id="small-cars-btn">Small Cars</button>
-            <button id="pickup-trucks-btn">Pickup Trucks</button>
-            <button id="suvs-btn">SUVs</button>
+          <div class="cars-container-content">
+            <div class="car-btns">
+              <button id="sports-cars-btn">Sports Cars</button>
+              <button id="small-cars-btn">Small Cars</button>
+              <button id="pickup-trucks-btn">Pickup Trucks</button>
+              <button id="suvs-btn">SUVs</button>
+            </div>
           </div>
-        </div>
-        <div class="cars-container">
-          <!--START OF CARS-->
-          <div id="card-container-wrapper"></div>
+          <div class="cars-container">
+            <!--START OF CARS-->
+            <div id="card-container-wrapper"></div>
 
-          <!-- Modal structure -->
-          <div id="modal" class="modal">
-            <div id="modal-content">
-              <span class="close-modal" onclick="closeModal()">&times;</span>
-              
-              <!-- Div for the main image, image gallery, and description -->
-              <div id="content-container">
-                <!-- Div for the main image -->
-                <div id="main-image-container">
-                  <img id="main-image" alt="Main Image" />
+            <!-- Modal structure -->
+            <div id="modal" class="modal">
+              <div id="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+
+                <!-- Div for the main image, image gallery, and description -->
+                <div id="content-container">
+                  <!-- Div for the main image -->
+                  <div id="main-image-container">
+                    <img id="main-image" alt="Main Image" />
+                  </div>
+
+                  <!-- Div for the image gallery -->
+                  <div id="image-gallery-container">
+                    <!-- Image gallery will be dynamically populated here -->
+                  </div>
+
+                  <!-- Div for the description -->
+                  <div id="description-container"></div>
                 </div>
 
-                <!-- Div for the image gallery -->
-                <div id="image-gallery-container">
-                  <!-- Image gallery will be dynamically populated here -->
-                </div>
+                <!-- Div for the form fields -->
+                <div id="form-fields-container">
+                  <h2 class="form-header">Car Rental Agreement Form</h2>
+                  <p class="form-paragraph">
+                    Thank you for using our car rental service. We have a large
+                    selection of vehicles that you may use. Prices vary
+                    depending on the selected car category. Fill in the rental
+                    agreement form below with the requested information and we
+                    will get back to you shortly
+                  </p>
+                  <br />
 
-                <!-- Div for the description -->
-                <div id="description-container"></div>
+                  <label for="username">Your Name</label>
+                  <input type="text" id="username" />
+
+                  <label for="email">Your Email</label>
+                  <input type="text" id="email" />
+
+                  <label for="phone">Your Phone</label>
+                  <input type="text" id="phone" />
+
+                  <label>Price / 24hrs</label>
+                  <p id="price-label" class="price-label"></p>
+
+                  <label for="pick-up-date">Pick Up Date</label>
+                  <input type="date" id="pick-up-date" />
+
+                  <label for="return-date">Return Date</label>
+                  <input type="date" id="return-date" />
+
+                  <label for="pick-up-time">Pick Up Time</label>
+                  <input type="time" id="pick-up-time" />
+
+                  <label for="return-time">Return Time</label>
+                  <input type="time" id="return-time" />
+
+                  <label for="pick-up-location">Pick Up Location</label>
+                  <select id="pick-up-location" name="city">
+                    <option value="">Please Select</option>
+                    <option value="accra">Accra</option>
+                    <option value="spintex">Spintex</option>
+                    <option value="australia">Tema</option>
+                  </select>
+
+                  <label for="return-location">Return Location</label>
+                  <select id="return-location" name="city">
+                    <option value="">Please Select</option>
+                    <option value="accra">Accra</option>
+                    <option value="spintex">Spintex</option>
+                    <option value="australia">Tema</option>
+                  </select>
+
+                  <label>Do you require additional features?</label>
+                  <div class="form-flex">
+                    <div class="form-flex-left">
+                      <input
+                        type="radio"
+                        id="yes"
+                        name="agreement"
+                        value="yes"
+                      />
+                      <label for="yes">Yes</label>
+                    </div>
+                    <div class="form-flex-right">
+                      <input type="radio" id="no" name="agreement" value="no" />
+                      <label for="no">No</label>
+                    </div>
+                  </div>
+
+                  <label for="comments"
+                    >Comments, Questions, Special request:</label
+                  >
+                  <textarea
+                    id="comments"
+                    name="comments"
+                    rows="5"
+                    cols="50"
+                  ></textarea>
+
+                  <button onclick="submitForm()">Submit</button>
+                </div>
               </div>
+            </div>
+          </div>
 
-              <!-- Div for the form fields -->
-              <div id="form-fields-container">
-                <h2 class="form-header">Car Rental Agreement Form</h2>
-                <p class="form-paragraph">
-                  Thank you for using our car rental service. We have a large
-                  selection of vehicles that you may use. Prices vary depending
-                  on the selected car category. Fill in the rental agreement
-                  form below with the requested information and we will get back
-                  to you shortly
-                </p>
-                <br />
+          <!--BUTTON TO SHOW LIST OF ALL THE CARS-->
+          <div
+            class="show-all-cars padding-top-bottom"
+            onclick="openAllCardsModal()"
+          >
+            <a href="#">
+              <h4>See all cars</h4>
+            </a>
+          </div>
 
-                <label for="username">Your Name</label>
-                <input type="text" id="username" />
-
-                <label for="email">Your Email</label>
-                <input type="text" id="email" />
-
-                <label for="phone">Your Phone</label>
-                <input type="text" id="phone" />
-
-                <label>Price / 24hrs</label>
-                <p id="price-label" class="price-label"></p>
-
-                <label for="pick-up-date">Pick Up Date</label>
-                <input type="date" id="pick-up-date" />
-
-                <label for="return-date">Return Date</label>
-                <input type="date" id="return-date" />
-
-                <label for="pick-up-time">Pick Up Time</label>
-                <input type="time" id="pick-up-time" />
-
-                <label for="return-time">Return Time</label>
-                <input type="time" id="return-time" />
-
-                <label for="pick-up-location">Pick Up Location</label>
-                <select id="pick-up-location" name="city">
-                  <option value="">Please Select</option>
-                  <option value="accra">Accra</option>
-                  <option value="spintex">Spintex</option>
-                  <option value="australia">Tema</option>
-                </select>
-
-                <label for="return-location">Return Location</label>
-                <select id="return-location" name="city">
-                  <option value="">Please Select</option>
-                  <option value="accra">Accra</option>
-                  <option value="spintex">Spintex</option>
-                  <option value="australia">Tema</option>
-                </select>
-
-                <label>Do you require additional features?</label>
-                <div class="form-flex">
-                  <div class="form-flex-left">
-                    <input type="radio" id="yes" name="agreement" value="yes" />
-                    <label for="yes">Yes</label>
-                  </div>
-                  <div class="form-flex-right">
-                    <input type="radio" id="no" name="agreement" value="no" />
-                    <label for="no">No</label>
-                  </div>
-                </div>
-
-                <label for="comments"
-                  >Comments, Questions, Special request:</label
+          <!--MODAL TO SHOW ALL CARS-->
+          <!-- New modal structure for all 32 cards -->
+          <div class="limit-view">
+            <div id="all-cards-modal" class="modal">
+              <div id="all-cards-content">
+                <span
+                  class="close-modal all-cars-close-modal"
+                  onclick="closeAllCardsModal()"
+                  >&times;</span
                 >
-                <textarea
-                  id="comments"
-                  name="comments"
-                  rows="5"
-                  cols="50"
-                ></textarea>
-
-                <button onclick="submitForm()">Submit</button>
+                <h2>All Cars</h2>
+                <div id="all-cards-container">
+                  <!-- Cards will be dynamically added here -->
+                </div>
+                <div onclick="closeAllCardsModal()">
+                  <button class="close-all-cars-button">Close</button>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <!--BUTTON TO SHOW LIST OF ALL THE CARS-->
-        <div
-          class="show-all-cars padding-top-bottom"
-          onclick="openAllCardsModal()"
-        >
-          <a href="#">
-            <h4>See all cars</h4>
-          </a>
-        </div>
-
-        <!--MODAL TO SHOW ALL CARS-->
-        <!-- New modal structure for all 32 cards -->
-        <div id="all-cards-modal" class="modal">
-          <div id="all-cards-content">
-            <span
-              class="close-modal all-cars-close-modal"
-              onclick="closeAllCardsModal()"
-              >&times;</span
-            >
-            <h2>All Cars</h2>
-            <div id="all-cards-container">
-              <!-- Cards will be dynamically added here -->
-            </div>
-            <div onclick="closeAllCardsModal()">
-              <button class="close-all-cars-button">Close</button>
             </div>
           </div>
         </div>
@@ -376,8 +426,11 @@
         <div class="download-apps-content">
           <h1 class="text-padding cool">Let's Drive With Rentit Today!!!</h1>
           <p class="padding-top-bottom cool">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-            Velit, error magnam. Iure voluptatibus repellendus ea.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem
+            ipsum, dolor <br />
+            sit amet consectetur adipisicing elit. Suscipit, voluptatum.Velit,
+            error <br />
+            magnam. Iure voluptatibus repellendus ea Lorem, ipsum dolor.
           </p>
           <div class="apps-inline">
             <div class="apps-btn padding-top-bottom">
@@ -416,118 +469,120 @@
 
       <!--START OF REVIEWS SECTION-->
       <section class="reviews" id="reviews">
-        <div class="review-headinds">
-          <h2 class="success padding-top-bottom">Testimonials</h2>
-          <h1 class="padding-top-bottom">What Our Customers Say About Us</h1>
-        </div>
-        <div class="review-slider-container">
-          <div class="review-slider">
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-business-woman-vector-graphic-wearing-colorful-shirt-front-view-over-isolated-background-concept-illustration-81929415.jpg"
-                  alt="woman"
-                />
+        <div class="limit-view">
+          <div class="review-headinds">
+            <h2 class="success padding-top-bottom">Testimonials</h2>
+            <h1 class="padding-top-bottom">What Our Customers Say About Us</h1>
+          </div>
+          <div class="review-slider-container">
+            <div class="review-slider">
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-business-woman-vector-graphic-wearing-colorful-shirt-front-view-over-isolated-background-concept-illustration-81929415.jpg"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Kate Brunn</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4>Kate Brunn</h4>
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-2027365__340.webp"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Tom Cruk</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-face-icon-female-social-profile-of-business-woman-woman-portrait-support-service-call-center-illustration-vector.webp"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Paige Hale</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-2027365__340.webp"
-                  alt="woman"
-                />
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-business-woman-vector-graphic-wearing-colorful-shirt-front-view-over-isolated-background-concept-illustration-81929415.jpg"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Kate Brunn</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
-              <div>
-                <h4>Tom Cruk</h4>
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-2027365__340.webp"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Tom Cruk</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
-              </div>
-            </div>
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-face-icon-female-social-profile-of-business-woman-woman-portrait-support-service-call-center-illustration-vector.webp"
-                  alt="woman"
-                />
-              </div>
-              <div>
-                <h4>Paige Hale</h4>
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
-              </div>
-            </div>
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-business-woman-vector-graphic-wearing-colorful-shirt-front-view-over-isolated-background-concept-illustration-81929415.jpg"
-                  alt="woman"
-                />
-              </div>
-              <div>
-                <h4>Kate Brunn</h4>
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
-              </div>
-            </div>
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-2027365__340.webp"
-                  alt="woman"
-                />
-              </div>
-              <div>
-                <h4>Tom Cruk</h4>
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
-              </div>
-            </div>
-            <div class="review-slides">
-              <div class="review-image">
-                <img
-                  src="./images/review images/avatar-face-icon-female-social-profile-of-business-woman-woman-portrait-support-service-call-center-illustration-vector.webp"
-                  alt="woman"
-                />
-              </div>
-              <div>
-                <h4>Paige Hale</h4>
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Labore quos nobis non perferendis illum repellat atque natus
-                  minima, distinctio quis!
-                </p>
+              <div class="review-slides">
+                <div class="review-image">
+                  <img
+                    src="./images/review images/avatar-face-icon-female-social-profile-of-business-woman-woman-portrait-support-service-call-center-illustration-vector.webp"
+                    alt="woman"
+                  />
+                </div>
+                <div>
+                  <h4>Paige Hale</h4>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore quos nobis non perferendis illum repellat atque natus
+                    minima, distinctio quis!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -585,54 +640,58 @@
 
       <!--START OF FAQs SECTION-->
       <section class="FAQs reveal-element" id="FAQs">
-        <div class="review-headinds">
-          <h2 class="padding-top-bottom">Frequently Asked Questions</h2>
-        </div>
-        <div class="accordion">
-          <div class="accordion-section" onclick="toggleAccordion(this)">
-            <h4>1. What do I need to rent a car?</h4>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              natus exercitationem blanditiis harum quibusdam! Aut atque
-              mollitia velit hic, ipsam corrupti asperiores quam molestiae sequi
-              dicta aliquid! Quia, molestiae minima?
-            </div>
+        <div class="limit-view">
+          <div class="review-headinds">
+            <h2 class="padding-top-bottom">Frequently Asked Questions</h2>
           </div>
-          <div class="accordion-section" onclick="toggleAccordion(this)">
-            <h4>2. Can I cancel my reservation?</h4>
-            <div class="accordion-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              doloremque, ea corrupti reprehenderit quam expedita, architecto
-              ratione tempore rem iusto cupiditate rerum quos fugit laudantium?
+          <div class="accordion">
+            <div class="accordion-section" onclick="toggleAccordion(this)">
+              <h4>1. What do I need to rent a car?</h4>
+              <div class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                natus exercitationem blanditiis harum quibusdam! Aut atque
+                mollitia velit hic, ipsam corrupti asperiores quam molestiae
+                sequi dicta aliquid! Quia, molestiae minima?
+              </div>
             </div>
-          </div>
-          <div class="accordion-section" onclick="toggleAccordion(this)">
-            <h4>
-              3. Can anyone besides the reservation applicant drive the car?
-            </h4>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              cum harum eaque, vel quos fugit voluptatum doloremque saepe
-              molestiae nobis!
+            <div class="accordion-section" onclick="toggleAccordion(this)">
+              <h4>2. Can I cancel my reservation?</h4>
+              <div class="accordion-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis doloremque, ea corrupti reprehenderit quam expedita,
+                architecto ratione tempore rem iusto cupiditate rerum quos fugit
+                laudantium?
+              </div>
             </div>
-          </div>
-          <div class="accordion-section" onclick="toggleAccordion(this)">
-            <h4>
-              4. Do I have to pay a cancellation fee if I cancel my reservation?
-            </h4>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              natus exercitationem blanditiis harum quibusdam! Aut atque
-              mollitia velit hic, ipsam corrupti asperiores quam molestiae sequi
-              dicta aliquid! Quia, molestiae minima?
+            <div class="accordion-section" onclick="toggleAccordion(this)">
+              <h4>
+                3. Can anyone besides the reservation applicant drive the car?
+              </h4>
+              <div class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti cum harum eaque, vel quos fugit voluptatum doloremque
+                saepe molestiae nobis!
+              </div>
             </div>
-          </div>
-          <div class="accordion-section" onclick="toggleAccordion(this)">
-            <h4>5. What should I do if I damage the car?</h4>
-            <div class="accordion-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              natus exercitationem blanditiis harum quibusdam! Aut atque
-              mollitia velit hic.
+            <div class="accordion-section" onclick="toggleAccordion(this)">
+              <h4>
+                4. Do I have to pay a cancellation fee if I cancel my
+                reservation?
+              </h4>
+              <div class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                natus exercitationem blanditiis harum quibusdam! Aut atque
+                mollitia velit hic, ipsam corrupti asperiores quam molestiae
+                sequi dicta aliquid! Quia, molestiae minima?
+              </div>
+            </div>
+            <div class="accordion-section" onclick="toggleAccordion(this)">
+              <h4>5. What should I do if I damage the car?</h4>
+              <div class="accordion-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                natus exercitationem blanditiis harum quibusdam! Aut atque
+                mollitia velit hic.
+              </div>
             </div>
           </div>
         </div>
@@ -643,76 +702,80 @@
     <!--START OF FOOTER-->
     <footer>
       <div class="main-footer-container">
-        <div>
-          <h2 class="footer-headings success">About Rentit</h2>
-          <p class="footer-about-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            eaque maiores minus, voluptatum molestias fugit laboriosam
-            doloremque dolorem. Nihil, necessitatibus.
-          </p>
-          <div class="footer-image-container">
-            <div>
-              <a href="#"
-                ><img
-                  class="footer-image"
-                  src="./images/footer icons/bFacebook-logob-bBlack-iconb-FB-icon-7841.png"
-                  alt="facebook"
-              /></a>
-            </div>
-            <div>
-              <a href="#"
-                ><img
-                  class="footer-image"
-                  src="./images/footer icons/free-youtube-icon-123-thumb.png"
-                  alt="youtube"
-              /></a>
-            </div>
-            <div>
-              <a href="#"
-                ><img
-                  class="footer-image"
-                  src="./images/footer icons/instagram-black-logo-transparent-free-png.webp"
-                  alt="instagram"
-              /></a>
-            </div>
-            <div>
-              <a href="#"
-                ><img
-                  class="footer-image"
-                  src="./images/footer icons/new-Twitter-logo-x-black-png.png"
-                  alt="twitter"
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-middle">
-          <h2 class="footer-headings success">Quick Links</h2>
-          <ul>
-            <li><a href="#FAQs">FAQ</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Return Policy</a></li>
-            <li><a href="#">Payment Options</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="footer-headings success">Contact Us</h2>
-          <div class="footer-right">
-            <div><span class="material-symbols-sharp"> location_on </span></div>
-            <div>
-              <p>17TH Street, <br />Accra-Ghana</p>
+        <div class="limit-view">
+          <div>
+            <h2 class="footer-headings success">About Rentit</h2>
+            <p class="footer-about-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              eaque maiores minus, voluptatum molestias fugit laboriosam
+              doloremque dolorem. Nihil, necessitatibus.
+            </p>
+            <div class="footer-image-container">
+              <div>
+                <a href="#"
+                  ><img
+                    class="footer-image"
+                    src="./images/footer icons/bFacebook-logob-bBlack-iconb-FB-icon-7841.png"
+                    alt="facebook"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    class="footer-image"
+                    src="./images/footer icons/free-youtube-icon-123-thumb.png"
+                    alt="youtube"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    class="footer-image"
+                    src="./images/footer icons/instagram-black-logo-transparent-free-png.webp"
+                    alt="instagram"
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img
+                    class="footer-image"
+                    src="./images/footer icons/new-Twitter-logo-x-black-png.png"
+                    alt="twitter"
+                /></a>
+              </div>
             </div>
           </div>
-          <div class="footer-right">
-            <div><span class="material-symbols-sharp"> call </span></div>
-            <div>
-              <p>+233500000000</p>
-              <p>+233500000000</p>
-            </div>
+          <div class="footer-middle">
+            <h2 class="footer-headings success">Quick Links</h2>
+            <ul>
+              <li><a href="#FAQs">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
           </div>
-          <div class="footer-right">
-            <div><span class="material-symbols-sharp"> mail </span></div>
-            <div><p>rentit@example.com</p></div>
+          <div>
+            <h2 class="footer-headings success">Contact Us</h2>
+            <div class="footer-right">
+              <div>
+                <span class="material-symbols-sharp"> location_on </span>
+              </div>
+              <div>
+                <p>17TH Street, <br />Accra-Ghana</p>
+              </div>
+            </div>
+            <div class="footer-right">
+              <div><span class="material-symbols-sharp"> call </span></div>
+              <div>
+                <p>+233500000000</p>
+                <p>+233500000000</p>
+              </div>
+            </div>
+            <div class="footer-right">
+              <div><span class="material-symbols-sharp"> mail </span></div>
+              <div><p>rentit@example.com</p></div>
+            </div>
           </div>
         </div>
       </div>
